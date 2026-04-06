@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CoreStock | Admin Panel</title>
+    <link rel="stylesheet" href="src/css/styles.css">
+    <link rel="shortcut icon" href="src/img/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <nav class="menu">
+        <img src="src/img/logo.png"  class="logo" alt="Logo">
+        <h2><a href="panel_admin.html">Panel Admin</a></h2>
+        <h2><a href="index.html">Inicio</a></h2>
+    </nav>
+
+    <nav class="menu">
+        <button id="btnProduct">Ver Productos</button>
+        <button id="btnSell">Ver Ventas</button>
+        <button id="btnSupplier">Ver Proveedores</button>
+    </nav>
+
+<section id="sectionProducts" class="tab-content">
+            <table id="tableProducts">
+                <caption>
+                    <button class="btnAddProduct" onclick="new_product()">+ Agregar Producto</button>
+                </caption>
+                <thead>
+                    <tr>
+                        <th>Producto</th>
+                        <th>ID</th>
+                        <th>Precio</th>
+                        <th>Stock</th>
+                        <th>Proveedor</th>
+                        <th>Fecha</th>
+                        <th>Acciones</th>
+                    </tr>
+                </thead>
+                <tbody id="bodyProducts">
+                    </tbody>
+            </table>
+        </section>
+
+        <section id="sectionSells" class="tab-content" style="display:none;">
+            <h2>Historial de Ventas</h2>
+            <p>Aquí se mostrarán las transacciones realizadas.</p>
+        </section>
+
+        <section id="sectionSuppliers" class="tab-content" style="display:none;">
+            <h2>Gestión de Proveedores</h2>
+            <p>Lista de contactos y empresas.</p>
+        </section>
+
+
+    <script src="src/js/script.js"></script>
+</body>
+</html>

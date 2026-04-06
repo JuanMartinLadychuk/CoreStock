@@ -1,0 +1,27 @@
+{
+    "Sushi": {
+        "Precio": 5.4,
+        "Cantidad": 3210,
+        "Proveedor": "Japon"
+    },
+    "Cheddar": {
+        "Precio": 22.3,
+        "Cantidad": 887,
+        "Proveedor": "Cheddar"
+    },
+    "Manzana Verde": {
+        "Precio": 1200.0,
+        "Cantidad": 1000,
+        "Proveedor": "Manolo S.A"
+    },
+    "0": {
+        "Precio": 0.0,
+        "Cantidad": 0,
+        "Proveedor": "0"
+    },
+    "Limon": {
+        "Precio": 300.0,
+        "Cantidad": 2,
+        "Proveedor": "Coscu Army C.A"
+    }
+}
