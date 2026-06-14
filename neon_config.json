@@ -1,0 +1,3 @@
+{
+  "dsn": "postgresql://neondb_owner:npg_D6BKf7czqepj@ep-solitary-frost-acful7z2-pooler.sa-east-1.aws.neon.tech/neondb?sslmode=require&channel_binding=require"
+}

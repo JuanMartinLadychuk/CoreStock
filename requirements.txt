@@ -1,0 +1,27 @@
+# requirements.txt — CoreStack Pro v0.9
+# Dependencias de runtime necesarias para compilar y para distribuir.
+#
+# NOTA: db.py usa sqlite3 (incluido en Python, no requiere instalacion)
+#       + un servidor Flask local para el modo multi-terminal (LAN).
+
+customtkinter>=5.2.2
+Pillow>=10.0.0
+
+# Servidor LAN local (db.py -> start_lan_server)
+flask>=3.0.0
+
+# Base de datos del modulo MercadoLibre (Neon Postgres)
+psycopg2-binary>=2.9.0
+
+# Reportes / exportaciones
+reportlab>=4.0.0                  # PDFs (sales.py)
+pandas>=2.0.0                     # Excel (sales.py)
+openpyxl>=3.1.0                   # motor .xlsx para pandas
+
+# ── Build ────────────────────────────────────────────────────
+pyinstaller>=6.0.0
+
+# ── Opcionales (NO incluir en el build base; instalar aparte
+#    solo si el cliente activa Facturacion Electronica AFIP) ──
+# zeep>=4.2.0
+# cryptography>=41.0
